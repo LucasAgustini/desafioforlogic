@@ -1,0 +1,80 @@
+body{
+	background-color: #e5f2f8 !important;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*menu*/
+
+#menu{
+	background-color: white;
+	padding-top: 20px;
+}
+
+#menu a {
+	color: black;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+#menu ul{
+	text-align: center;
+}
+
+#bootstrap-overrides .navbar-header{
+	margin-left: 0px;
+}
+
+/*
+#bootstrap-overrides .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+#bootstrap-overrides .navbar-collapse {
+  text-align: center;
+}*/
+
+
+
+/*section*/
+
+.container #conteudoCentro{
+	width: 80%;
+	margin: 0 auto;
+	font-size: 1.8em;
+	padding-top: 5%;
+}
+
+.container #conteudoCentro p{
+	text-align: center;
+	
+}
+
+.container #conteudoCentro .botoes{
+	text-align:center;
+}
+
+.container #conteudoCentro .botao{
+	background-color: #55aaff;
+	border: none;
+	color: white;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 6px 4px;
+	border-radius: 8px;
+
+}
+
+/*cadastro cliente*/
+
+.container #conteudoCentro .form-horizontal{
+	font-size: 0.8em;
+}
+
+.container #conteudoCentro .form-horizontal .form-group #botoesSubmit{
+	text-align: center;
+}
+
